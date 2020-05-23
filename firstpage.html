@@ -1,0 +1,71 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="firstpage.css">
+	<title>Reddit UI Evaluation Survey</title>
+</head>
+
+	<body>
+
+	<a href="https://www.reddit.com"><img border="0" alt="Reddit" src="https://www.redditinc.com/assets/images/site/reddit-logo.png" width="100" height="100"></a>	
+	<a href="https://www.reddit.com">Link to website (Reddit)</a>
+	
+		<h1>Please answer the following questions</h1>
+
+		<form action="index.php" name="first form" metho="POST">
+			<div class="q1">
+			What is the first thing that you notice when you first launch the website?
+			<input type="text" name="firstlook" size="100">
+			</div>
+			<br><br>
+
+			<div class="q2">
+			How would you rate the usability of this website?<br>
+			<input type="radio" name="usability" value="easy">Easy to use<br>
+			<input type="radio" name="usability" value="somewhat confusing">Somewhat confusing<br>
+			<input type="radio" name="usability" value="very confusing">Very confusing
+			</div>
+			<br><br>
+
+			<div class="q3">	
+			What is your preferred browsing layout?<br>
+			<select name="favorite">
+				<option value="Card" selected="selected">Card</option>
+				<option value="Classic">Classic</option>
+				<option value="Compact">Compact</option></select>
+			</div>
+			<br><br>
+
+			<div class="q4">
+			Select the statements that apply to you:<br>
+			<input type="checkbox" name="like" value="liked">I will use this website again<br>
+			<input type="checkbox" name="recommend" value="recommended">I will recommend this website to a friend<br>
+			<input type="checkbox" name="dislike" value="disliked">I will not use this website again<br>
+			<input type="checkbox" name="norecommend" value="norecommended">I will not recommend this website to a friend
+			</div>
+			<br><br>
+
+			<div class="q5">
+			Please write any other thoughts or comments here:<br>
+				<textarea rows="5" cols="30"></textarea>
+			</div>
+			<br><br>
+
+			<div class="q6">
+			How much did you like this website?<br>
+			<input type="radio" name="liked very much" value="liked very much">Liked very much<br>
+			<input type="radio" name="liked" value="liked">Liked<br>
+			<input type="radio" name="disliked" value="disliked">Disliked<br>
+			<input type="radio" name="disliked very much" value="disliked very much">Disliked very much
+			</div>
+			<br>
+
+			<input type="submit" value="Submit"/>
+		</form>
+
+	</body>
+
+	<footer>
+		<p>Website designed by: Mourad Elmofty 300005506</p>
+	</footer>
+</html>
