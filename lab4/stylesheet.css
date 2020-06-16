@@ -1,0 +1,80 @@
+html body {
+    background-color: black;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:monospace;
+    font-size: 40;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-family: monospace;
+    font-size: 30;
+    
+}
+
+h4 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-family: monospace;
+    font-size: 25;
+    text-decoration: underline;
+}
+
+h3 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18;
+}
+
+dl{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 18;
+    text-align: left;
+    
+}
+
+p {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 18;
+    text-align: right;
+}
+
+p1 {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 18;
+    text-align: left;
+}
+
+div {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-size: 18;
+    text-align: left;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    
+}
+
